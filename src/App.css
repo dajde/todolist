@@ -1,0 +1,94 @@
+#root,html,body{
+    background-color:indigo;
+    height:90%;
+}
+.maindiv{
+    margin:auto;
+    width:600px;
+    height:700px;
+    background-color:palevioletred;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.title{
+    height:15%;
+    margin-bottom: 0px;
+    font-size:50px;
+    font-family: sans-serif;
+    background-color: aquamarine;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainInput{
+    width:100%;
+    height:50%;
+    margin-top: 0px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size:100%;
+}
+.editInput{
+    width:100%;
+    height:50px;
+    margin-top: 0px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    font-size:24px;
+}
+ul{
+    padding-left: 0px;
+    margin:0;
+    list-style-type: none;
+    background-color: lightsalmon;
+    height:80%;
+
+    overflow: auto;
+
+}
+li{
+    height:15%; 
+    font-size: 30px;
+    font-family:sans-serif;
+    display:flex;
+    flex-direction: row;
+    padding-left:15px;
+    flex-wrap:wrap;
+    align-items: center;
+    position: relative;
+}
+.done{
+    background-color: darkgreen;
+}
+.editBtn{
+    background-color:darkorange;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+}
+.remBtn{
+    background-color:crimson;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 100px;
+    top:15px;
+}
+.doneBtn{
+    background-color:chartreuse;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    right: 170px;
+    top:15px;
+}
